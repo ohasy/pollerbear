@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+        {{!-- <link rel="stylesheet" type="text/css" media="screen" href="styles.css" /> --}}
+
+            {{!-- <script>        
+            $( window ).on( "load", function() {
+              $("body").removeClass("preload");
+                console.log( "window loaded" );
+            });              
+    </script> --}}
+{{!-- 
+        <script>
+        $(document).ready(function(){
+            console.log("doc")
+            $("submit_poll").click(function(){
+                $.ajax({url: "localhost:3000//api/v1/add", success: function(result){
+                    $("#submit_poll").html(result);
+                }});
+            });
+        });
+      </script> --}}
+    {{> header}}
+  </head>
+  <body class="preload">
+    <div class="grey lighten-3">
+    {{> navbar }}
+    {{{body}}}
+    {{> footer}}
+    </div>
+  </body>
+</html>

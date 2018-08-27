@@ -1,0 +1,62 @@
+    <div class="row container form-container white">
+            <form class="col s12 form_poll">
+              <!-- <div class="row">
+                <div class="input-field col s6">
+                  <input id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div> -->
+
+                <div class="row input-field col s12 question-block">
+                  
+                  <input placeholder="Enter your question here" id="question" type="text" class="validate">
+                  <label for="question">Question</label>
+                  <span class="helper-text" data-error="Hey man do something about it" data-success="Seems like a lagit question, we are ready to go.">Ex. Does kiki really loves me?</span>
+                </div>
+
+                    <div class="choices">
+                          <div class="row input-field col s12">
+                            <input id="choice" type="text" class="validate">
+                            <label for="choice">Answer 1</label>
+                          </div>
+
+                        <div class="row input-field col s12">
+                            <input id="choice" type="text" class="validate">
+                            <label for="choice">Answer 1</label>
+                          </div>
+
+                          <div class="row input-field col s12">
+                            <input id="choice" type="text" class="validate">
+                            <label for="choice">Answer 1</label>
+                          </div>
+
+                          <div class="row input-field col s12">
+                            <input id="choice" type="text" class="validate">
+                            <label for="choice">Answer 1</label>
+                          </div>
+                    </div>
+
+              <div class="right">
+                  <button id="submit_poll" class="btn waves-effect grey darken-1 waves-dark white-text hoverable " type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                </button>
+            </div>
+            <div>
+              <label>
+                <button id="addOption">Add option</button>
+              </label>
+            </div>
+            {{!-- <div class="switch">
+                    <label>
+                      Let user add another option ?
+                      <input type="checkbox">
+                      <span class="lever"></span>
+                      nah, dont let that happen
+                    </label>
+            </div> --}}
+            </form>
+          </div>  

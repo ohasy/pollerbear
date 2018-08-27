@@ -1,0 +1,67 @@
+.form-container{
+    /* background-color: grey; */
+    /* margin-block-start: 12px; */
+    /* border:grey 1px solid; */
+    padding-top:30px;
+}
+/* .logo {
+    padding:8px;
+    background: green;  
+} */
+
+.option {
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom:12px;
+}
+.option label {
+    padding:12px !important;
+    margin-bottom: 20px !important;
+    border-radius: 12px;
+    border:1px solid rgb(180, 180, 180);
+}
+.brand-logo {
+    padding-left: 12px !important;
+}
+
+.share-section{
+    margin-top:20px;
+}
+.share-section .share-block{
+    padding:30px;
+    padding-bottom: 20px !important;
+    /* background: red; */
+}
+
+.preload * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+  }
+
+.voted-text {
+    display:none; /* not need btw, it is hidden on page load in jquery */
+}
+
+#chartdiv table.jqplot-table-legend {
+    width:auto;
+}
+
+/* .jqplot-xaxis-tick{ width: xxx px;} */
+/* .btn.waves-effect {
+    height: auto;
+    min-height: 30px;
+    line-height: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 50px;
+}
+
+.btn.waves-effect .material-icons {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -10px;
+    margin-left: 0;
+} */

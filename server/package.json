@@ -1,0 +1,35 @@
+{
+  "name": "pollerbear",
+  "version": "1.0.0",
+  "description": "A polling app in node js and react.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "dev": "nodemon server",
+    "db-server-office":"~/mongodb/bin/mongod --bind_ip='192.168.1.30' --dbpath='../db/'",
+    "db-server-home":"~/mongodb/bin/mongod --bind_ip='192.168.43.195' --dbpath='../db/'"
+  },
+  "keywords": [
+    "polling-app",
+    "pollerbear",
+    "poll"
+  ],
+  "author": "yash ojha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "getmac": "^1.4.4",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "mongoose": "^5.2.9",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}

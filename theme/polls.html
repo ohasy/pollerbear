@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PollerBear | A Platform to conduct realtime polls</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+    <script src="main.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+</head>
+<body>
+    <!-- Nav bar -->
+    <div class="navbar-fixed">
+    <nav class="nav-extended grey darken-1">
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo white-text"><i class="material-icons">graphic_eq</i>Pollerbear</a>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger white-text"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="sass.html">About us</a></li>
+            <li><a href="badges.html">Contact us</a></li>
+            <li><a href="collapsible.html">Give Feedback</a></li>
+          </ul>
+        </div>
+        <!-- <div class="nav-content">
+          <ul class="tabs tabs-transparent">
+            <li class="tab col 4"><a href="#test1">Home</a></li>
+            <li class="tab col 4"><a class="active" href="#test2">Add a question</a></li>
+            <li class="tab col 4"><a href="#test3">Answer A question</a></li>
+            <li class="tab col 4"><a href="#test4">Polls</a></li>
+          </ul>
+        </div> -->
+      </nav>
+    </div>
+      <!-- <ul class="sidenav" id="nav-mobile">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul> -->
+
+      <!-- content -->
+
+      <div class="row container">
+        <h3 class="grey-text darken-2">Does Kiki really loves me ? </h3>
+        <ul class="collection">
+                <li class="collection-item">Not really <span class="new badge" data-badge-caption="People">4</span></li>
+                <li class="collection-item">Noone can tell that <span class="new badge" data-badge-caption="People">4</span></li>
+                <li class="collection-item">Who's kiki <span class="new badge" data-badge-caption="People">4</span></li>
+                <li class="collection-item">Get back in your car <span class="new badge" data-badge-caption="People">4</span></li>
+        </ul>
+        <div class="row col s12 share-section">
+              <div class="col s6 share-block hoverable">
+                  <p class="flow-text left-align">Share Question Link</p>
+                  <p class="flow-text grey-text darken-text-3 left-align">Anyone with this url can answer the question</p>
+                  <a class="btn red lighten-3 waves-effect waves-teal"><span>Share</span></a>
+              </div>
+              <div class="col s6 share-block hoverable">
+                  <p class="flow-text left-align">Share Polls Link</p>
+                  <p class="flow-text grey-text darken-text-3 left-align">Anyone with this url can access the polls result of this question</p>
+                  <a class="btn red lighten-3 waves-effect waves-teal left"><span>Share</span></a>
+              </div>
+        </div>
+      </div>    
+            
+      <!-- footer -->
+      <footer class="page-footer grey darken-1">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">PollerBear</h5>
+                  <p class="grey-text text-lighten-4"></p>"Imagine a motivational quote here, and then never believe it."</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">Explore</h5>
+                  <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Polls Board</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">See the polls</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Professional looking option</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Another one</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+              © 2018 Pebbits.com
+              <a class="grey-text text-lighten-4 right" target="_blank" href="https://www.pebbits.com">Take me to the site</a>
+              </div>
+            </div>
+    </footer>
+    <script>
+     document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+  // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
+  // var collapsibleElem = document.querySelector('.collapsible');
+  // var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+    </script>
+</body>
+</html>
